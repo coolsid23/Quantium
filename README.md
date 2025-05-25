@@ -29,6 +29,7 @@ We need to present a strategic recommendation to Julia that is supported by data
 #### Data Cleaning:
 - Date column was in integer format. So the date column was changed to date time format.
 - There are 365 days in a year but in the DATE column there are only 364 unique values so one was missing. As it was a Christmas day and store was closed there was no anomaly. Value was kept as zero transaction for "TOT_SALES".
+![image](https://github.com/user-attachments/assets/9a80c916-d585-4a30-9b9d-4d72f6bbf7d4)
 
 - Checked if all the products in given data are chips.
 -  Some product names are written in more than one way. Example : Dorito and Doritos, Grains and GrnWves, Infusions and Ifzns, Natural and NCC, Red and RRD, Smith and Smiths and Snbts and Sunbites. It was cleaned thereafter.
